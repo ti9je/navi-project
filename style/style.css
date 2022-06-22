@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Blaka&family=Oswald:wght@300;400;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+}
+header {
+  padding: 25px;
+}
+.header-wrapper {
+  width: 75%;
+  margin: 0 auto;
+}
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header img {
+  width: 160px;
+  height: 80px;
+}
+header nav a {
+  margin-left: 43px;
+  color: black;
+  opacity: 0.5;
+  text-decoration: none;
+}
+header nav a:first-child {
+  margin-left: 0;
+}
+.active-link {
+  color: black;
+  opacity: 1;
+  font-weight: 700;
+}
+.welcome-wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+.inner {
+  padding: 150px 0;
+}
+.welcome-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#welcome img {
+  width: 693px;
+}
+#welcome h1 {
+  font-size: 2rem;
+}
+.welcome-details {
+  width: 450px;
+  color: #7d7987;
+}
+.welcome-btn {
+  color: black;
+  background: yellow;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 25px;
+}
